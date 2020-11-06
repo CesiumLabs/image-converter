@@ -1,0 +1,33 @@
+{
+  "name": "@canvacord/image-converter",
+  "version": "1.0.0",
+  "description": "Image converter for canvacord.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd test && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevSnowflake/image-converter.git"
+  },
+  "keywords": [
+    "image",
+    "decoder",
+    "imagedecoder",
+    "canvacord"
+  ],
+  "author": "Snowflake107",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/DevSnowflake/image-converter/issues"
+  },
+  "homepage": "https://github.com/DevSnowflake/image-converter#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "sharp": "^0.26.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.6",
+    "jimp": "^0.16.1"
+  }
+}
