@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Image converter for canvacord.",
   "main": "index.js",
+  "typings": "index.d.ts",
   "scripts": {
     "test": "cd test && node index.js"
   },
